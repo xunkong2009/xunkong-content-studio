@@ -1,6 +1,6 @@
 # 寻空内容创作工具箱
 
-供获授权成员安装的私有 Codex 插件源，三个插件可分别安装。
+公开的 Codex 插件源，任何人都可以获取并分别安装这三个插件。
 
 | 插件 | 标识 | 能力 |
 | --- | --- | --- |
@@ -12,7 +12,7 @@
 
 ## 安装
 
-先由仓库所有者在 GitHub 仓库 Settings → Collaborators 中邀请接收者，接收者接受邀请并用自己的 GitHub 账号登录本机 Git 工具。只有获授权账号能读取此私有仓库。
+此仓库公开，无需协作者邀请或 GitHub 仓库访问授权。安装者需要在自己的 Codex 中添加插件源。
 
 在终端运行：
 
@@ -28,12 +28,12 @@ codex plugin add deep-biz-wechat-studio@xunkong-content-studio
 codex plugin add deep-nev-wechat-studio@xunkong-content-studio
 ```
 
-若当前客户端尚未提供对应安装界面，先更新客户端；不同版本的入口可能不同。需要通过本机 Git 已有的 HTTPS 或 SSH 登录方式访问私有仓库，不要把令牌写进仓库地址。添加源时遇到 Repository not found，先确认邀请已接受、当前 Git 账号有读取权限。
+若当前客户端尚未提供对应安装界面，先更新客户端；不同版本的入口可能不同。此公开仓库可通过 HTTPS 获取，无需仓库读取令牌。添加源失败时，先检查仓库地址与本机网络连接。
 
 也可以手动克隆后添加本地源：
 
 ```bash
-git clone git@github.com:xunkong2009/xunkong-content-studio.git
+git clone https://github.com/xunkong2009/xunkong-content-studio.git
 codex plugin marketplace add ./xunkong-content-studio
 ```
 
