@@ -1,0 +1,8 @@
+interface:
+  display_name: "短视频全流程工作台"
+  short_description: "选题脚本、主体生图与动效、素材剪辑、字幕避让和动作音效"
+  brand_color: "#F7CB56"
+  default_prompt: "使用 $shortvideo-workbench 根据我的选题、脚本或录制视频，推进所需的脚本、视觉素材和口播剪辑阶段。"
+
+policy:
+  allow_implicit_invocation: true

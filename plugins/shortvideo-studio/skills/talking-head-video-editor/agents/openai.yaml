@@ -1,0 +1,4 @@
+interface:
+  display_name: "口播视频剪辑"
+  short_description: "口播粗剪与素材合成、透明文字叠加、按需字幕避让和独立音效混音"
+  default_prompt: "使用 $talking-head-video-editor 处理我的口播视频，按粗剪、全屏素材与透明浮层、显式动作音效、按需字幕的阶段推进，默认竖屏，主播固定机位不挪位置。"

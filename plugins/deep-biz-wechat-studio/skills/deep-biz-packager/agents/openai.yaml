@@ -1,0 +1,6 @@
+interface:
+  display_name: "商业文章包装器"
+  short_description: "基于最终稿统一生成标题、传播角度与可执行配图方案"
+  icon_small: "./assets/icon-packager.png"
+  icon_large: "./assets/icon-packager.png"
+  default_prompt: "Use $deep-biz-packager to generate the final PackagingSet from an approved FinalDraft."

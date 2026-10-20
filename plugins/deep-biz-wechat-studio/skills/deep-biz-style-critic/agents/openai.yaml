@@ -1,0 +1,6 @@
+interface:
+  display_name: "商业文章风格审校器"
+  short_description: "审校初稿、修正结构并输出去 AI 味的最终正文"
+  icon_small: "./assets/icon-critic.png"
+  icon_large: "./assets/icon-critic.png"
+  default_prompt: "Use $deep-biz-style-critic to critique an ArticleDraft and rewrite it as a clean FinalDraft."

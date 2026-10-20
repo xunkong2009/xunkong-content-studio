@@ -1,0 +1,6 @@
+interface:
+  display_name: "商业深度调研"
+  short_description: "商业深度调研：找资料、交叉验证、提炼论据与事实边界"
+  icon_small: "./assets/icon-research.png"
+  icon_large: "./assets/icon-research.png"
+  default_prompt: "Use $deep-biz-research to produce a cross-verified ResearchBrief for a business or marketing topic."

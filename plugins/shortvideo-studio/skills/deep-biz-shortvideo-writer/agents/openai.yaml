@@ -1,0 +1,8 @@
+interface:
+  display_name: "商业短视频写作器"
+  short_description: "完成商业口播短视频的选题、标题、脚本、封面和视频提示词"
+  brand_color: "#D94A32"
+  default_prompt: "使用 $deep-biz-shortvideo-writer 为我写一条有观点、有节奏的中文商业口播短视频脚本。"
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,6 @@
+interface:
+  display_name: "商业公众号全流程写作器"
+  short_description: "商业公众号全流程：选题、调研、写作、包装与 HTML 导出"
+  icon_small: "./assets/icon-wechat-writer.png"
+  icon_large: "./assets/icon-wechat-writer.png"
+  default_prompt: "Use $deep-biz-wechat-writer to take a Chinese business-analysis article from topic selection through WeChat HTML export."

@@ -1,0 +1,30 @@
+{
+  "name": "shortvideo-studio",
+  "version": "1.0.0",
+  "description": "中文口播短视频全流程插件，覆盖脚本、配图分镜、Remotion 动效、视频素材和口播剪辑。",
+  "author": {
+    "name": "寻空"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "短视频全流程工作台",
+    "shortDescription": "从脚本、配图和动效，到口播精剪、字幕避让与动作音效",
+    "longDescription": "面向中文商业与知识类口播短视频，使用确认粗剪统一计时，支持连续配图、真实素材、Remotion说明动效与无底框重点文字、字幕避让和独立动作音效混音。",
+    "developerName": "寻空",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "帮我从选题到脚本、分镜和素材，完成一条商业口播短视频。",
+      "把这段口播脚本拆成图文配图和真实视频素材方案。",
+      "从这篇口播脚本中选出适合动效的段落，确认后按需生成主体图片并制作 Remotion 视频，默认竖屏深蓝金。",
+      "针对这段脚本搜索并下载网络视频及素材站视频，本地文件统一使用中文名称。",
+      "以确认粗剪为基准完成素材精剪，保留口播和主播，重点文字透明叠加，按需添加胸前字幕并避让动效，配合适的动作音效。"
+    ],
+    "brandColor": "#F7CB56",
+    "composerIcon": "./assets/icon-shortvideo.png",
+    "logo": "./assets/icon-shortvideo.png"
+  }
+}

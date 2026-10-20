@@ -1,0 +1,20 @@
+{
+  "cream-red": {
+    "background": "#F6F1E8",
+    "paper": "#FFFCF6",
+    "ink": "#151515",
+    "accent": "#C62828",
+    "accentSecondary": "#B08A45",
+    "line": "#E6E0D6",
+    "shadow": "rgba(21,21,21,0.12)"
+  },
+  "navy-gold": {
+    "background": "#070B11",
+    "paper": "#151E2B",
+    "ink": "#F6F8FD",
+    "accent": "#F7CB56",
+    "accentSecondary": "#69ECD7",
+    "line": "#273446",
+    "shadow": "rgba(0,0,0,0.35)"
+  }
+}

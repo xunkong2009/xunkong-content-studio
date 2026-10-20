@@ -1,0 +1,8 @@
+interface:
+  display_name: "Remotion短视频动效制作"
+  short_description: "九类竖屏商业动效与主播浮层，双主题、透明素材与连续审片"
+  default_prompt: "使用 $shortvideo-remotion-producer 从这篇口播脚本中选出适合动效的段落，并在确认后分别制作 Remotion 视频，默认竖屏深蓝金，保留米白黑红，明确要求横屏时改用横屏，人物产品按需准备或生成图片，文字图表用代码呈现，并适量配短音效。"
+  brand_color: "#F7CB56"
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 2,
+  "projectTitle": "小样角色变化示例",
+  "topicKey": "sample-role-example",
+  "scriptStatus": "user-provided",
+  "sourceScript": "以前的小样是买正装送的添头，藏在柜台后面，还得看店员心情。现在完全不一样，小样有自己的货架、自己的价格、自己的活动。",
+  "scopeTerms": [
+    "小样"
+  ],
+  "forbiddenCarryoverTerms": [],
+  "referenceImages": [],
+  "styleTokens": {
+    "background": "#070B11",
+    "paper": "#151E2B",
+    "ink": "#F6F8FD",
+    "accent": "#F7CB56",
+    "accentSecondary": "#69ECD7",
+    "line": "#273446",
+    "shadow": "rgba(0,0,0,0.35)"
+  },
+  "video": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "clips": [
+    {
+      "beatId": "B01",
+      "compositionId": "ExampleClip",
+      "fileName": "01-sample-role.mp4",
+      "title": "小样的角色变了",
+      "scriptExcerpt": "以前的小样是买正装送的添头，藏在柜台后面，还得看店员心情。现在完全不一样，小样有自己的货架、自己的价格、自己的活动。",
+      "narrativeJob": "mechanism",
+      "motionType": "object-migration",
+      "durationInFrames": 300,
+      "auditFrames": [
+        0,
+        30,
+        105,
+        150,
+        220,
+        285,
+        299
+      ],
+      "transitionFrames": [
+        65,
+        78,
+        180
+      ],
+      "detailFrames": [
+        285
+      ],
+      "motionDesign": {
+        "viewerQuestion": "小样怎样从附赠品变成独立商品？",
+        "visualModel": "同一小瓶从正装旁移至独立货架，并获得自己的经营身份",
+        "layoutMode": "object-stage",
+        "coverageMode": "illustrative-insert",
+        "anchorText": "以前的小样是买正装送的添头，藏在柜台后面，还得看店员心情。现在完全不一样，小样有自己的货架、自己的价格、自己的活动。",
+        "timingSource": "estimated",
+        "beats": [
+          {
+            "triggerText": "买正装送的添头",
+            "action": "先建立正装与旁边的附赠小瓶",
+            "focus": "正装旁的小样",
+            "startFrame": 0,
+            "endFrame": 15,
+            "holdEndFrame": 59
+          },
+          {
+            "triggerText": "现在完全不一样",
+            "action": "正装淡下，同一小瓶沿可见路径迁移到独立货架中央",
+            "focus": "移动的小样",
+            "startFrame": 60,
+            "endFrame": 95,
+            "holdEndFrame": 119
+          },
+          {
+            "triggerText": "自己的货架",
+            "action": "货架和小样标签建立独立位置",
+            "focus": "货架上的小样",
+            "startFrame": 120,
+            "endFrame": 135,
+            "holdEndFrame": 164
+          },
+          {
+            "triggerText": "自己的价格",
+            "action": "同一小瓶旁挂上价格标签，不编造售价",
+            "focus": "独立定价标签",
+            "startFrame": 165,
+            "endFrame": 180,
+            "holdEndFrame": 209
+          },
+          {
+            "triggerText": "自己的活动",
+            "action": "活动标记出现，镜头停在独立商品结果",
+            "focus": "小样及经营身份",
+            "startFrame": 210,
+            "endFrame": 225,
+            "holdEndFrame": 299
+          }
+        ]
+      },
+      "audio": {
+        "mode": "silent",
+        "events": []
+      },
+      "assetIds": []
+    }
+  ],
+  "visualAssets": [],
+  "theme": "navy-gold"
+}

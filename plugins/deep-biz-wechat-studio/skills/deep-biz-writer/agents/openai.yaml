@@ -1,0 +1,6 @@
+interface:
+  display_name: "商业长文写作器"
+  short_description: "把已批准大纲展开为有分析、有判断的公众号初稿"
+  icon_small: "./assets/icon-writer.png"
+  icon_large: "./assets/icon-writer.png"
+  default_prompt: "Use $deep-biz-writer to turn an OutlineSpec into a 3000-5000 character ArticleDraft."

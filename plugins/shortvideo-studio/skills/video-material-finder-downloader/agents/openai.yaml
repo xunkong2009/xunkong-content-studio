@@ -1,0 +1,8 @@
+interface:
+  display_name: "视频素材搜索下载器"
+  short_description: "按脚本搜索国内外免费平台、免费素材库和开放档案"
+  brand_color: "#D94A32"
+  default_prompt: "使用 $video-material-finder-downloader 分析我的口播脚本，只从国内外公开社交平台、官方媒体中心、免费素材库和开放档案搜索，排除全部付费来源，并在权限允许时下载为中文命名的视频剪辑素材包。"
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,37 @@
+{
+  "name": "remotion-vertical-motion-template",
+  "version": "1.0.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "scripts": {
+    "dev": "remotion studio --no-open",
+    "build": "remotion bundle src/index.ts",
+    "preflight": "node scripts/preflight.mjs",
+    "lint": "eslint src && tsc",
+    "preview:audit": "node scripts/render-audit.mjs",
+    "render:all": "node scripts/render-all.mjs",
+    "verify": "node scripts/verify-media.mjs",
+    "package": "node scripts/package-delivery.mjs",
+    "deliver": "node scripts/deliver.mjs",
+    "preview:motion": "node scripts/render-preview.mjs",
+    "test:templates": "node scripts/test-templates.mjs"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.506",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.506"
+  },
+  "devDependencies": {
+    "@remotion/eslint-config-flat": "4.0.506",
+    "@types/react": "19.2.7",
+    "@types/web": "0.0.166",
+    "eslint": "9.19.0",
+    "ffprobe-static": "3.1.0",
+    "prettier": "3.8.1",
+    "typescript": "5.9.3"
+  },
+  "sideEffects": [
+    "*.css"
+  ]
+}

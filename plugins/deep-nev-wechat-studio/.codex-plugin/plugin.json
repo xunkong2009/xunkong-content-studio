@@ -1,0 +1,27 @@
+{
+  "name": "deep-nev-wechat-studio",
+  "version": "1.0.0",
+  "description": "新能源公众号写作，覆盖选题、调研、大纲、成文、审校与包装。",
+  "author": {
+    "name": "寻空"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "新能源公众号工作室",
+    "shortDescription": "新能源产业选题、调研、成稿、审校与包装",
+    "longDescription": "围绕车企、智能驾驶、动力电池、补能、出海与政策，以行业机制和可靠证据推进完整写作流程。",
+    "developerName": "寻空",
+    "category": "Productivity",
+    "capabilities": [
+      "Research",
+      "Write",
+      "Edit"
+    ],
+    "defaultPrompt": [
+      "围绕这个新能源行业题目，完成调研、大纲和公众号文章。"
+    ],
+    "composerIcon": "./assets/icon-nev.png",
+    "logo": "./assets/icon-nev.svg",
+    "brandColor": "#287D67"
+  }
+}

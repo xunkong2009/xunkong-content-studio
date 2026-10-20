@@ -1,0 +1,21 @@
+{
+  "corpus": {
+    "provider": "none",
+    "local_sample_dir": "",
+    "ima_skill_dir": "",
+    "knowledge_base_name": "",
+    "article_folder_path": [],
+    "commission_folder_path": [],
+    "script_folder_path": []
+  },
+  "presenter": {
+    "reference_images": [],
+    "drive_folder_url": "",
+    "cover_style_references": []
+  },
+  "media": {
+    "ffmpeg": "ffmpeg",
+    "ffprobe": "ffprobe",
+    "font_path": ""
+  }
+}

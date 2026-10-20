@@ -1,0 +1,8 @@
+interface:
+  display_name: "口播短视频配图分镜"
+  short_description: "把口播脚本拆成连续图文分镜、页面提示词和可生成配图"
+  brand_color: "#D94A32"
+  default_prompt: "使用 $shortvideo-image-storyboard 把我的口播脚本拆成连续的图文配图分镜。"
+
+policy:
+  allow_implicit_invocation: true

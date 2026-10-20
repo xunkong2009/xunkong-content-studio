@@ -1,0 +1,37 @@
+{
+  "name": "deep-biz-wechat-studio",
+  "version": "1.0.0",
+  "description": "商业公众号全流程工作室，覆盖选题、调研、大纲、写作、审校、包装、IMA 参考语料与公众号 HTML 导出。",
+  "author": {
+    "name": "寻空"
+  },
+  "keywords": [
+    "wechat",
+    "business-writing",
+    "research",
+    "html-export",
+    "ima"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "商业公众号工作室",
+    "shortDescription": "商业公众号选题、调研、写作、审校、包装与 HTML 导出",
+    "longDescription": "从热点扫描和深度调研开始，经过大纲、长文写作、风格审校和传播包装，最终生成适合公众号后台复制使用的内联样式 HTML。可选接入安装者自己的 IMA 或本地语料。",
+    "developerName": "寻空",
+    "category": "Productivity",
+    "capabilities": [
+      "Research",
+      "Write",
+      "Edit",
+      "HTML Export"
+    ],
+    "defaultPrompt": [
+      "用商业公众号全流程写作器，从选题到 HTML 完成一篇文章。",
+      "围绕这个商业热点完成调研、大纲和公众号长文。",
+      "审校这篇文章，完成标题包装并导出公众号 HTML。"
+    ],
+    "brandColor": "#3DAAD6",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/logo.svg"
+  }
+}

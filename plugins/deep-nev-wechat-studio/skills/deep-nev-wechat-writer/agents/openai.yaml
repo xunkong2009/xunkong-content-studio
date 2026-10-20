@@ -1,0 +1,6 @@
+interface:
+  display_name: "新能源公众号全流程写作器"
+  short_description: "新能源公众号全流程写作：行业选题、深度分析、成稿、审校、包装"
+  icon_small: "./assets/icon-nev.png"
+  icon_large: "./assets/icon-nev.png"
+  default_prompt: "Use $deep-nev-wechat-writer to run the full workflow for a deep Chinese WeChat article about the new-energy vehicle industry."

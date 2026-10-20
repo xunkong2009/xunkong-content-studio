@@ -1,0 +1,6 @@
+interface:
+  display_name: "商业选题雷达"
+  short_description: "今日选题与热点扫描：筛出值得深挖的商业、营销与社会议题"
+  icon_small: "./assets/icon-topic.png"
+  icon_large: "./assets/icon-topic.png"
+  default_prompt: "Use $deep-biz-topic-engine to surface 3-5 topic candidates with business-analysis value."

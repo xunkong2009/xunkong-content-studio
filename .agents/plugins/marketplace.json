@@ -1,0 +1,44 @@
+{
+  "name": "xunkong-content-studio",
+  "interface": {
+    "displayName": "寻空内容创作工具箱"
+  },
+  "plugins": [
+    {
+      "name": "shortvideo-studio",
+      "source": {
+        "source": "local",
+        "path": "./plugins/shortvideo-studio"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "deep-biz-wechat-studio",
+      "source": {
+        "source": "local",
+        "path": "./plugins/deep-biz-wechat-studio"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "deep-nev-wechat-studio",
+      "source": {
+        "source": "local",
+        "path": "./plugins/deep-nev-wechat-studio"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
